@@ -17,7 +17,7 @@ public class Test {
         map.put("wifi",new Wifi());
         map.put("app",new App());
         StrategyFactory factory = new StrategyFactory(map);
-        factory.getMqtt("wifi").saveData();
+        factory.getMqtt("wifi11").saveData();
         factory.getMqtt("app").saveData();
         factory.getMqtt("lll  " +
                 "l").saveData();
