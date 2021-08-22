@@ -18,7 +18,7 @@ public class Test {
         map.put("app",new App());
         StrategyFactory factory = new StrategyFactory(map);
         factory.getMqtt("wifi11").saveData();
-        factory.getMqtt("app").saveData();
+        factory.getMqtt("app33").saveData();
         factory.getMqtt("lll  " +
                 "l").saveData();
     }
